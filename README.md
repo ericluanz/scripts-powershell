@@ -1,4 +1,4 @@
-## 🏗️ infra-scripts
+## 🏗️ powershell-scripts
 
 Scripts e automações em PowerShell para gerenciamento de infraestrutura e Active Directory no dia a dia.
 
