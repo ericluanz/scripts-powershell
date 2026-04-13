@@ -6,15 +6,15 @@ Scripts e automações em PowerShell para gerenciamento de infraestrutura e Acti
 
 ## 📂 Estrutura
 
-infra-scripts/
-├── powershell/        # Automação e gerenciamento
-│   ├── domain/        # Domínio / Active Directory
-│   ├── users/         # Usuários
-│   ├── groups/        # Grupos
-│   ├── network/       # Rede / Ingresso no domínio
-│   ├── backup/        # Backup
-│   └── tests/         # Testes e diagnósticos
-
+infra-scripts/  
+├── powershell/ ## Automação e gerenciamento   
+├── domain/ ## Domínio / Active Directory   
+├── users/ ## Usuários   
+├── groups/ ## Grupos   
+├── network/ ## Rede / Ingresso no domínio   
+├── backup/ ## Backup   
+└── tests/ ## Testes e diagnósticos  
+  
 ---
 
 ## 🔧 Principais Funcionalidades
