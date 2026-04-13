@@ -6,7 +6,7 @@ Scripts e automações em PowerShell para gerenciamento de infraestrutura e Acti
 
 ## 📂 Estrutura
 
-infra-scripts/
+infra-scripts/  
 ├── powershell/        # Automação e gerenciamento  
 │   ├── domain/        # Domínio / Active Directory  
 │   ├── users/         # Usuários  
