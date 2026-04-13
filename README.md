@@ -1,4 +1,4 @@
-## 🏗️ powershell-scripts
+## 🏗️ scripts-powershell
 
 Scripts e automações em PowerShell para gerenciamento de infraestrutura e Active Directory no dia a dia.
 
@@ -6,8 +6,8 @@ Scripts e automações em PowerShell para gerenciamento de infraestrutura e Acti
 
 ## 📂 Estrutura
 
-infra-scripts/  
-├── powershell/        # Automação e gerenciamento  
+scripts-powershell/  
+│   ├── powershell/        # Automação e gerenciamento  
 │   ├── domain/        # Domínio / Active Directory  
 │   ├── users/         # Usuários  
 │   ├── groups/        # Grupos  
@@ -33,7 +33,7 @@ infra-scripts/
 
 ## 🚀 Como utilizar
 
-git clone https://github.com/ericluanz/infra-scripts.git  
+git clone https://github.com/ericluanz/scripts-powershell.git  
 cd infra-scripts
 
 Execute os scripts conforme a necessidade:
