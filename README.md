@@ -1,75 +1,63 @@
-## 🏗️ powershell-scripts
+## 🏗️ scripts-infra-python  
 
-Scripts e automações em PowerShell para gerenciamento de infraestrutura e Active Directory no dia a dia.
+Automações em Python para ambientes corporativos Windows e Linux. Scripts voltados para redes, servidores e monitoramento, desenvolvidos como parte dos estudos em infraestrutura de TI.  
 
----
+## 📂 Estrutura  
+scripts-infra/  
+├── redes/            ## Testes e análise de rede  
+├── servidores/       ## Inventário e automações de servidor  
+├── monitoramento/    ## Monitoramento de recursos e disco  
+├── automacao/        ## Limpeza e tarefas automatizadas  
+└── README.md  
 
-## 📂 Estrutura
+## 🔧 Principais Funcionalidades  
 
-infra-scripts/  
-├── powershell/ ## Automação e gerenciamento   
-├── domain/ ## Domínio / Active Directory   
-├── users/ ## Usuários   
-├── groups/ ## Grupos   
-├── network/ ## Rede / Ingresso no domínio   
-├── backup/ ## Backup   
-└── tests/ ## Testes e diagnósticos  
-  
----
+## 🌐 Redes & Conectividade  
+Verificação de conectividade (ping em múltiplos hosts)  
+Teste de portas abertas em IPs e hostnames  
+Geração de relatórios de rede em .txt  
 
-## 🔧 Principais Funcionalidades
+## 🖥️ Servidores & Inventário  
+Coleta de CPU, RAM, disco e sistema operacional  
+Exportação de inventário em .csv  
+Scripts de backup automatizado com compressão .zip e rotação de arquivos  
 
-### ⚙️ Active Directory & Infraestrutura
+## 📊 Monitoramento  
+Monitoramento de uso de disco por partição  
+Alertas configuráveis para limites de armazenamento  
 
-- Configuração inicial de domínio (AD DS)  
-- Criação e organização de OUs  
-- Provisionamento de usuários em lote  
-- Criação e gerenciamento de grupos  
-- Ingresso automático de máquinas no domínio  
-- Backup de usuários, grupos e membros do AD  
-- Testes de conectividade (DNS, LDAP, SMB, RDP)  
+## 🧹 Automação  
+Limpeza de arquivos antigos baseada em X dias  
+Modo de simulação (dry-run) para testes seguros  
+Geração automática de logs de execução  
 
----
+## 🚀 Como utilizar  
 
-## 🚀 Como utilizar
+## git clone https://github.com/ericluanz/scripts-infra.git  
+## cd scripts-infra  
 
-git clone https://github.com/ericluanz/infra-scripts.git  
-cd infra-scripts
+## Instale as dependências necessárias:  
 
-Execute os scripts conforme a necessidade:
+## pip install psutil  
 
-# Exemplo
-.\powershell\users\04-Setup-Usuarios.ps1
+## Execute o script desejado    
 
-> ⚠️ Execute o PowerShell como administrador quando necessário.
-
----
+⚠️ Observação: execute conforme sua necessidade e ajuste as configurações no início de cada script.  
 
 ## 📋 Pré-requisitos
-
-- Windows Server (para AD)  
-- Windows 10/11 Pro (clientes)  
-- PowerShell 5.0+  
-- Permissões administrativas  
-- Ambiente de domínio configurado  
-
----
+Python 3.8+  
+Sistema Windows ou Linux  
+Biblioteca psutil (para scripts de sistema)  
 
 ## ⚠️ Aviso
+Este repositório contém scripts de automação e diagnóstico.
 
-Este repositório contém **scripts de uso interno**.
-
-- Teste sempre em ambiente controlado  
-- Revise antes de executar em produção  
-- Adapte conforme sua infraestrutura  
-
----
+✔️ Utilize apenas em ambientes autorizados  
+✔️ Teste antes de executar em produção  
+✔️ Ajuste os parâmetros conforme seu ambiente  
 
 ## 🛠️ Boas práticas
-
-- ✔️ Utilize ambiente de testes (LAB)  
-- ✔️ Mantenha backups atualizados  
-- ✔️ Revise permissões e credenciais  
-- ✔️ Customize os scripts conforme o cenário  
-
----
+✔️ Mantenha backups antes de automações críticas  
+✔️ Use o modo simulação quando disponível  
+✔️ Revise permissões de execução  
+✔️ Evite executar scripts em produção sem validação
