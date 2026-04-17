@@ -24,12 +24,6 @@
 .EXAMPLE
     .\Setup-IPEstatico.ps1
     
-.AUTHOR
-    Seu Nome
-    
-.DATE
-    11/04/2026
-    
 .NOTES
     Requer permissões de administrador
 #>
