@@ -4,16 +4,10 @@
     
 .DESCRIPTION
     Este script cria as OUs principais da estrutura: Usuarios, Grupos, Computadores
-    e sub-OUs por departamento (TI, RH, Financeiro, Diretoria)
+    e sub-OUs por departamento
     
 .EXAMPLE
     .\Setup-OUs.ps1
-    
-.AUTHOR
-    Seu Nome
-    
-.DATE
-    11/04/2026
     
 .NOTES
     Requer permissões de administrador
