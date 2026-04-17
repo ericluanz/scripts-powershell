@@ -7,17 +7,10 @@
     Requer reboot após execução.
     
 .PARAMETER DomainName
-    Nome do domínio a ser criado (padrão: empresa.local)
+    Nome do domínio a ser criado padrão: empresa.local (mas pode alterar)
     
 .EXAMPLE
-    .\Setup-ActiveDirectory.ps1
-    
-.AUTHOR
-    Seu Nome
-    
-.DATE
-    11/04/2026
-    
+    .\Setup-ActiveDirectory.ps1    
 .NOTES
     Requer permissões de administrador
     Máquina será reiniciada após conclusão
