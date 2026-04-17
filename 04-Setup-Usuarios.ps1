@@ -8,13 +8,7 @@
     
 .EXAMPLE
     .\Setup-Usuarios.ps1
-    
-.AUTHOR
-    Seu Nome
-    
-.DATE
-    11/04/2026
-    
+        
 .NOTES
     Requer permissões de administrador
     Requer Active Directory com OUs configuradas
