@@ -15,12 +15,6 @@
 .EXAMPLE
     .\Setup-ClienteIngresso.ps1
     
-.AUTHOR
-    Seu Nome
-    
-.DATE
-    11/04/2026
-    
 .NOTES
     Requer permissões de administrador
     Máquina será reiniciada
