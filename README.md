@@ -31,30 +31,6 @@ scripts-powershell/
 
 ---
 
-## 🚀 Como utilizar
-
-git clone https://github.com/ericluanz/scripts-powershell.git  
-cd infra-scripts
-
-Execute os scripts conforme a necessidade:
-
-# Exemplo
-.\powershell\users\04-Setup-Usuarios.ps1
-
-> ⚠️ Execute o PowerShell como administrador quando necessário.
-
----
-
-## 📋 Pré-requisitos
-
-- Windows Server (para AD)  
-- Windows 10/11 Pro (clientes)  
-- PowerShell 5.0+  
-- Permissões administrativas  
-- Ambiente de domínio configurado  
-
----
-
 ## ⚠️ Aviso
 
 Este repositório contém **scripts de uso interno**.
@@ -64,10 +40,3 @@ Este repositório contém **scripts de uso interno**.
 - Adapte conforme sua infraestrutura  
 
 ---
-
-## 🛠️ Boas práticas
-
-- ✔️ Utilize ambiente de testes (LAB)  
-- ✔️ Mantenha backups atualizados  
-- ✔️ Revise permissões e credenciais  
-- ✔️ Customize os scripts conforme o cenário  
